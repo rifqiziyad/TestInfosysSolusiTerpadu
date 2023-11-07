@@ -1,0 +1,25 @@
+.our-service .title {
+  text-align: center;
+}
+
+.our-service .title > * {
+  padding-bottom: 50px;
+}
+
+.our-service .list-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.our-service .list-item .item {
+  text-align: center;
+  padding: 50px 0;
+  flex: 0 0 33.333333%;
+}
+
+.our-service .list-item .item img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,50 @@
+.middle-section {
+  display: flex;
+  height: 100vh;
+  padding: 100px 0;
+}
+
+.middle-section .background-image {
+  background: url(../assets/images/middle-section/Mask_group.png) no-repeat,
+    url(../assets//images/middle-section/Group_42.png) no-repeat -30px;
+}
+
+.middle-section > * {
+  flex: 1;
+}
+
+.middle-section .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.middle-section .desc > * {
+  padding-bottom: 30px;
+}
+
+.middle-section .desc h5 {
+  color: var(--second-soft-color);
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.middle-section .desc h1 {
+  color: var(--second-color);
+  font-family: var(--main-font-family);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.middle-section .desc h4 {
+  color: var(--third-color);
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}

@@ -1,0 +1,38 @@
+.our-teams {
+  text-align: center;
+  /* border: black solid 1px; */
+}
+
+.our-teams h1 {
+  margin-bottom: 50px;
+}
+
+.our-teams .list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.our-teams .box {
+  border-radius: 11px;
+  box-shadow: 0px 4px 70px 0px rgba(91, 93, 99, 0.06);
+  flex: 1 0 21%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.our-teams .box img {
+  margin-right: 10px;
+}
+
+.our-teams .box h4 {
+  font-size: 13px;
+}
+
+.our-teams .box h5 {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+}
